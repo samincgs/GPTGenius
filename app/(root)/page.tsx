@@ -1,3 +1,4 @@
+import { UserButton } from '@clerk/nextjs';
 import Link from 'next/link';
 
 export default function HomePage() {
@@ -13,6 +14,7 @@ export default function HomePage() {
           <Link href='/chat'>
             <button className='btn btn-secondary'>Get Started</button>
           </Link>
+          <UserButton afterSignOutUrl='/' />
         </div>
       </div>
     </div>
