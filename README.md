@@ -10,8 +10,10 @@ GPTGenius is a full-stack Next.js14 website which integrates OpenAI for an enhan
 - TailwindCSS
 - DaisyUI
 - Clerk
+- OpenAI
 - Prisma
 - PlanetScale
+- React-Query
 
 ### Credits
 
